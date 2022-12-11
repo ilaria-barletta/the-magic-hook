@@ -52,4 +52,14 @@ h1{
     width: 100%;
     background-image: url('../images/background-aboutmesection.jpg');
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#mypicture{
+    border-radius: 100%;
+    width: 200px;
+    object-fit: cover;
+    object-position: 100% 0%;
+    height: 200px;
+    margin-top: 20px;
 }
