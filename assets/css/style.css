@@ -21,7 +21,7 @@ h1, h2 {
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #eac0d8;
     letter-spacing: 2px;
-    color: #2b6a53;
+    color: #016943;
 }
 h2{
     font-size:2em;
@@ -50,10 +50,10 @@ h2{
 }
 #menu a{
     text-decoration: none;
-    color: #2b6a53;
+    color: #016943;
 }
 #menu a:hover{
-    border-bottom: 2px solid #2b6a53;
+    border-bottom: 2px solid #016943;
 }
 
 /*about me section*/ 
@@ -122,11 +122,17 @@ h2{
 }
 
 #templates div{
-    color: #2b6a53;
+    color: #016943;
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     padding: 10px;
+}
+#templates ol{
+    color:#012a0e;
+    margin-left: 30px;
+    font-size: 30px;
+    
 }
 
 #scarf{
@@ -152,6 +158,6 @@ footer ul li {
     display: inline;
 }
 footer i {
-    color:#2b6a53;
+    color:#016943;
     
 }
