@@ -23,6 +23,9 @@ h1, h2 {
     letter-spacing: 2px;
     color: #2b6a53;
 }
+h2{
+    font-size:2em;
+}
 #logo{
     float:left;
     font-size: 300%;
@@ -87,11 +90,26 @@ h1, h2 {
 #tools{
     float:left;
     width:50%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#tools > ul {
+    font-size: 30px;
+    margin-top: 10px;
+    list-style-type: square;
 }
 #stitches{
     float: right;
     width:50%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#stitches > ul{
+    font-size: 30px;
+    margin-top: 10px;
+    list-style-type: square;
+
 }
