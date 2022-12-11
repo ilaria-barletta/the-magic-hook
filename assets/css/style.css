@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Pridi:wght@200&family=Reenie+Beanie&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    border: none;
+}
 body{
-    background-color: rgb(220, 61, 21);
+    font-family: Reenie Beanie, sans-serif;
+    font-size: large;
+    font-weight: 400;
 }
