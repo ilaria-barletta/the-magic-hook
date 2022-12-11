@@ -45,3 +45,11 @@ h1{
 #menu a:hover{
     border-bottom: 2px solid #2b6a53;
 }
+
+/*about me section*/ 
+#crochet-background-about-me-section{
+    height:600px;
+    width: 100%;
+    background-image: url('../images/background-aboutmesection.jpg');
+    background-size: cover;
+}
