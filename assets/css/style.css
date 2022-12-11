@@ -7,10 +7,15 @@
 body{
     font-family: stalemate, sans-serif;
     font-weight: 400;
-    color: #130014;
+    color: #012a0e;
+}
+p {  
+    font-family: Reenie Beanie, sans-serif;
+    font-size: 20px;
+
 }
 /* heading and logo */
-h1{
+h1, h2 {
     font-family: Reenie Beanie, sans-serif;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #eac0d8;
