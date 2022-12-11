@@ -1,11 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Pridi:wght@200&family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Reenie+Beanie&family=Stalemate&display=swap');
 *{
     margin:0;
     padding: 0;
     border: none;
 }
 body{
-    font-family: Reenie Beanie, sans-serif;
-    font-size: large;
+    font-family: stalemate, sans-serif;
     font-weight: 400;
+    color: #130014;
+}
+/* heading and logo */
+h1{
+    font-family: Reenie Beanie, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #eac0d8;
+    letter-spacing: 2px;
+    color: #2b6a53;
+}
+#logo{
+    float:left;
+    font-size: 300%;
+    margin-right:20px;
+}
+#logo-image{
+    height: 48px;
 }
