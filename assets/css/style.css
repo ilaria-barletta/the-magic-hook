@@ -26,6 +26,7 @@ h1, h2 {
     float:left;
     font-size: 300%;
     margin-right:20px;
+    margin-left: 20px;
 }
 #logo-image{
     height: 48px;
@@ -68,4 +69,18 @@ h1, h2 {
     object-position: 100% 0%;
     height: 200px;
     margin-top: 20px;
+}
+
+/* basics section*/
+#basics{
+    height: 600px;
+}
+#tools{
+    float:left;
+    width:50%
+
+}
+#stitches{
+    float: right;
+    width:50%
 }
