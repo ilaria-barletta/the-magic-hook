@@ -196,6 +196,18 @@ footer i {
     #templates{
         flex-direction: column;
     }
+
+    #gallery{
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px;
+    }
+
+    #coffee-cake{
+        grid-column-end: auto;
+    }
+    #spaghetti-amigurumi{
+        grid-column-end: auto;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -216,5 +228,10 @@ footer i {
         align-items:flex-start;
         margin-left: 30px;
     
+    }
+
+    #gallery{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px;
     }
 }
