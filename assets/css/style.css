@@ -7,7 +7,7 @@
 body{
     font-family: Reenie Beanie, sans-serif;
     font-weight: 400;
-    color: #012a0e;
+    color: #131a17;
 }
 p {  
     font-family: Reenie Beanie, sans-serif;
@@ -19,9 +19,9 @@ p {
 h1, h2 {
     font-family: IM Fell Great Primer, sans-serif;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #eac0d8;
+    text-shadow: 2px 2px 2px #eedde5;
     letter-spacing: 2px;
-    color: #016943;
+    color: #131a17;
 }
 h2{
     font-size:2em;
@@ -50,20 +50,20 @@ h2{
 }
 #menu a{
     text-decoration: none;
-    color: #016943;
+    color: #131a17;
 }
 #menu a:hover{
-    border-bottom: 2px solid #016943;
+    border-bottom: 2px solid #131a17;
 }
 .active{
-    border-bottom: 2px solid #016943;
+    border-bottom: 2px solid #131a17;
 }
 
 /*about me section*/ 
 #crochet-background-about-me-section{
     height:600px;
     width: 100%;
-    background-image: url('../images/background-aboutmesection.jpg');
+    background-image: linear-gradient(0deg, rgba(203, 204, 205, 0.6), rgba(203, 204, 205, 0.6)), url('../images/background-aboutme-section.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -125,29 +125,29 @@ h2{
 }
 
 #templates div{
-    color: #016943;
+    color: #131a17;
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     padding: 10px;
 }
 #templates ol{
-    color:#012a0e;
+    color:#131a17;
     margin-left: 30px;
     font-size: 30px;
     
 }
 
 #scarf{
-    background: linear-gradient(0deg, rgba(203, 204, 205, 0.7), rgba(203, 204, 205, 0.7)), url('../images/scarf.webp');
+    background: linear-gradient(0deg, rgba(203, 204, 205, 0.6), rgba(203, 204, 205, 0.6)), url('../images/wrap-gallery9.jpeg');
     
 }
 #snowman{
-    background-image: linear-gradient(0deg, rgba(203, 204, 205, 0.7), rgba(203, 204, 205, 0.7)), url('../images/snowman.jpeg');
+    background-image: linear-gradient(0deg, rgba(203, 204, 205, 0.6), rgba(203, 204, 205, 0.6)), url('../images/snowman.jpeg');
 
 }
 #blanket{
-    background-image: linear-gradient(0deg, rgba(203, 204, 205, 0.7), rgba(203, 204, 205, 0.7)), url('../images/blanket.jpeg');
+    background-image: linear-gradient(0deg, rgba(203, 204, 205, 0.6), rgba(203, 204, 205, 0.6)), url('../images/blanket.jpeg');
 }
 
 /*footer section*/
@@ -172,6 +172,8 @@ footer i {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 450px 450px 450px;
     grid-gap: 15px;
+    clear: both;
+    margin: 100px;
 }
 
 .gallery-image {
