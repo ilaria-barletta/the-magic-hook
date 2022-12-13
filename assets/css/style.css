@@ -191,6 +191,25 @@ footer i {
     grid-column-end: span 2;
 }
 
+/*form*/
+form{
+    clear: both;
+    margin: 50px 250px;
+
+}
+
+fieldset{
+    border: 1px solid #131a17;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #131a17;
+}
+
 /* media queries*/
 @media screen and (max-width: 800px) {
     #templates{
@@ -208,6 +227,11 @@ footer i {
     #spaghetti-amigurumi{
         grid-column-end: auto;
     }
+
+    form{
+        margin: 50px 50px;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -233,5 +257,13 @@ footer i {
     #gallery{
         grid-template-columns: repeat(1, 1fr);
         margin: 10px;
+    }
+    form{
+        margin: 50px 20px;
+    }
+    
+    fieldset{
+        display: flex;
+        flex-direction: column;
     }
 }
