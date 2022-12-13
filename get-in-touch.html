@@ -27,8 +27,33 @@
             </ul>
         </nav>
     </header>
-
-   
+    <form>
+        <fieldset>
+            <legend>User details</legend>
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" id="fname" placeholder="your first name"/>
+            <label for="lname">Last name:</label>
+            <input type="text" name="lname" id="lname" placeholder="your last name" />
+        </fieldset>
+        <fieldset>
+            <legend>Contact information</legend>
+            <label for="pnumber">Phone number:</label>
+            <input type="number" name="pnumber" id="pnumber" placeholder="your phone number" />
+            <label for="email">Email address:</label>
+            <input type="email" name="email" id="email" placeholder="your email address" />
+        </fieldset>
+        <fieldset> 
+            <legend>Reason to contact me</legend>
+            <label for="reason-to-contact-me">Reason to contact me:</label>
+            <input type="checkbox" id="reason-to-contact-me" name="Request a tutorial" />
+            <label for="reason-to-contact-me">Book a class</label>
+            <input type="checkbox" id="reason-to-contact-me" name="Book a class" />
+            <label for="reason-to-contact-me">Start a collaboration</label>
+            <input type="checkbox" id="reason-to-contact-me" name="Start a collaboration" />
+        </fieldset>
+        <input type="reset" value="Start over" />
+        <input type="submit" value="Get in touch" />
+    </form>
     <footer>
         <ul>
             <li>
