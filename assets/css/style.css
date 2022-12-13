@@ -193,7 +193,6 @@ footer i {
 
 /*form*/
 form{
-    clear: both;
     margin: 50px 250px;
 
 }
@@ -208,6 +207,14 @@ fieldset{
 input{
     padding: 10px;
     border: 1px solid #131a17;
+}
+#form-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#get-in-touch-section{
+    clear: both;
 }
 
 /* media queries*/
