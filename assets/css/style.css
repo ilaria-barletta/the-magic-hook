@@ -167,7 +167,16 @@ footer i {
     color:#131a17;
     
 }
-
+.fa-facebook {
+    color: rgb(111, 177, 167)
+}
+.fa-twitter {
+    color: rgb(215, 164, 204)
+}
+.fa-instagram {
+    color: rgb(225, 212, 194);
+}
+.fa-email
 /* gallery */
 #gallery{
     display: grid;
