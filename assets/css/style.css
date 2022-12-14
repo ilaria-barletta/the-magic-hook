@@ -218,6 +218,14 @@ input{
 }
 
 /* media queries*/
+@media screen and (max-width: 1200px) {
+
+    fieldset{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 @media screen and (max-width: 800px) {
     #templates{
         flex-direction: column;
@@ -267,10 +275,5 @@ input{
     }
     form{
         margin: 50px 20px;
-    }
-    
-    fieldset{
-        display: flex;
-        flex-direction: column;
     }
 }
