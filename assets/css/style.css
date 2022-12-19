@@ -238,6 +238,10 @@ input{
         display: flex;
         flex-direction: column;
     }
+    #gallery{
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px;
+    }
     
 }
 @media screen and (max-width: 800px) {
@@ -246,7 +250,7 @@ input{
     }
 
     #gallery{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin: 50px;
     }
 
@@ -267,7 +271,10 @@ input{
     #logo{
         font-size: 200%;
     }
-    
+    #gallery{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px;
+    }  
 }
 
 @media screen and (max-width: 480px) {
@@ -295,11 +302,6 @@ input{
         align-items:flex-start;
         margin-left: 30px;
     
-    }
-
-    #gallery{
-        grid-template-columns: repeat(1, 1fr);
-        margin: 10px;
     }
     form{
         margin: 50px 20px;
