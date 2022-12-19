@@ -19,7 +19,7 @@ a {
 }
 
 /* heading and logo */
-h1, h2 {
+h1, h2, h3 {
     font-family: IM Fell Great Primer, sans-serif;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #eedde5;
@@ -28,6 +28,9 @@ h1, h2 {
 }
 h2{
     font-size:2em;
+}
+h3{
+    font-size:1.75em;
 }
 #logo{
     float:left;
