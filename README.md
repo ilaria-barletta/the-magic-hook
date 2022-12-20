@@ -2,7 +2,8 @@
 ![The magic hook on multiple devices](assets/images/Site%20Devices.png)
 
 This website is for crochet aficionados and people interested in learning the basics of crochet. It has everything one can possibly need to know before starting to crochet. It provides basic information regarding the first stitches to learn and useful links to youtube videos showing how the stitches are made. It's a guide anyone interested can use in order to quicky understand how to pick up a yarn and an hook and how to create something. 
-/*Add link here to deployed website*/
+
+The live link can be found here:https://ilaria-barletta.github.io/the-magic-hook/
 
 ----
 ## Features
@@ -45,6 +46,14 @@ __Fixed Bugs__: While developing the website I have encountered some issues that
 4. The background images gave me some issues as they were not the right size to fit the containers (in some cases they were repeating and in some others they were too zoomed in). I had the issue on the homepage in the about me section as well as in the templates section. I also had the same issue when adding a background image to the form. By reasearching online I have found some css properties that let me decide how to display the image. I.e. background-position, background-repeat and background-size. 
 ----
 ## Deployment
+The site has been deployed to GitHub pages. The steps to deploy are as follows:
+1. Click on the Settings tab in the repository.
+2. Click Pages under the code and automation section.
+3. Select "main" as the branch and click Save.
+4. Refresh the page and wait for the link to appear.
+
+The live link can be found here: https://ilaria-barletta.github.io/the-magic-hook/
+
 ----
 ## Credits 
 1. The background image for the about me section and form comes from google images
