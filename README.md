@@ -43,3 +43,13 @@ __Fixed Bugs__: While developing the website I have encountered some issues that
 2. The templates section originally had a fixed height that made the text go outside the containers when re-sizing. Removing the fixed height and adding padding to give the space around the content has solved the issue.
 3. When writing the gallery, originally there were more columns that I had to reduce in order to make the images display nicely on all screens. 
 4. The background images gave me some issues as they were not the right size to fit the containers (in some cases they were repeating and in some others they were too zoomed in). I had the issue on the homepage in the about me section as well as in the templates section. I also had the same issue when adding a background image to the form. By reasearching online I have found some css properties that let me decide how to display the image. I.e. background-position, background-repeat and background-size. 
+----
+## Deployment
+----
+## Credits 
+1. The background image for the about me section and form comes from google images
+2. The video links in the stitches section come from youtube. In particular they come from 2 channels: "FiberFlux" and "Crochet Guru".
+3. The templates images were taked from google images
+4. The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+5. The images in the gallery page come from one of my instagram accounts: "Littletreasure365".
+6. The code to make the social network links was taken from the CI Love running project
